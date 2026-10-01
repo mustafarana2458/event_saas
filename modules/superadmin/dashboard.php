@@ -190,7 +190,6 @@ $recentLogs = $db->query("SELECT * FROM activity_logs ORDER BY created_at DESC L
     </div>
 </div>
 
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 <script>
 let pendingOrgId = null, pendingStatus = null;
 
@@ -218,6 +217,5 @@ document.getElementById('confirmToggleBtn').addEventListener('click', async func
 
 function editOrg(id) { window.location.href = 'organizations.php?edit=' + id; }
 </script>
-<?php include '../../includes/superadmin_session.php'; ?>
 </body>
 </html>

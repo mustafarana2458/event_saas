@@ -205,7 +205,6 @@ event_saas/
 │   ├── config.php                 # DB config, session, security helpers
 │   ├── dashboard_styles.php       # Shared CSS/font/script includes
 │   ├── session_check.php          # Client-side inactivity timer
-│   ├── superadmin_session.php     # Super admin session bootstrap
 │   ├── admin_sidebar.php          # Org admin navigation
 │   ├── superadmin_sidebar.php     # Super admin navigation
 │   └── topbar.php                 # Shared top navigation bar

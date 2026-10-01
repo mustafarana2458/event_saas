@@ -63,7 +63,7 @@ foreach($calEventsRaw as $ce) { $calMap[$ce['event_date']][] = $ce; }
         <!-- Stats -->
         <div class="stats-grid">
             <div class="stat-card">
-                <div class="stat-icon" style="background:linear-gradient(135deg,#C9A84C,#E8C97A)"><i class="fas fa-calendar-star"></i></div>
+                <div class="stat-icon" style="background:linear-gradient(135deg,#C9A84C,#E8C97A)"><i class="fas fa-calendar-check"></i></div>
                 <div class="stat-info"><span class="stat-label">Total Events</span><span class="stat-value"><?= $totalEvents ?></span><span class="stat-sub"><?= $confirmedEvents ?> Confirmed</span></div>
             </div>
             <div class="stat-card">
