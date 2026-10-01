@@ -157,7 +157,7 @@ $months = ['','January','February','March','April','May','June','July','August',
                                 $h = $maxMonthly > 0 ? max(4, round($rev/$maxMonthly*130)) : 4;
                             ?>
                             <div class="bar-item">
-                                <div class="bar-value"><?=$rev>0?'₨'.number_format($rev/1000,0).'K':'':''?></div>
+                                <div class="bar-value"><?=$rev>0?'₨'.number_format($rev/1000,0).'K':''?></div>
                                 <div class="bar-fill" style="height:<?=$h?>px" title="<?=$months[$m]?>: <?=formatPKR($rev)?>"></div>
                                 <div class="bar-label"><?=substr($months[$m],0,3)?></div>
                             </div>
